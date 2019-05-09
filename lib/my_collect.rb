@@ -1,9 +1,9 @@
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-def my_collect(collection)
+array = ['ruby', 'javascript', 'python', 'objective-c']
+def my_collect(array)
   i = 0
   collect = []
-  while i < collection.length
-    collect << yield(collection[i])
+  while i < array.length
+    collect << yield(array[i])
   end
   collect
 end
